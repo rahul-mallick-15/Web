@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Image Map</title>
+        <link rel="icon" type ="image/x-icon" href="../Images/face.ico"> 
+        <style>
+            body{
+                background-color: gold;
+            }
+            th,td{
+                text-align: center;
+                padding:10px;
+                background-color : orange;
+                border-style:solid;
+                border-color: red;;
+                border-width: 5px 5px;
+            }
+            td{
+                border-style:solid;
+                border-spacing: 30px;
+                color: white;
+            }
+            #table_div{
+                margin-top: 50px ;
+                margin-left: 350px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <h1 style="font-size:xx-large ; font-family: Georgia, 'Times New Roman', Times, serif;" color: orange; ">Image Map</h1>
+        </div>
+        <div style="text-align: center;">
+            <img style="height: 500px;width: 800px;border: 5px solid black"  src="../Images/DemonSlayer_for_ImageMap.jpeg" alt="error"  usemap="#characters">
+            <map name= "characters">
+                <area  title="Kamado Tanjiro" href="https://kimetsu-no-yaiba.fandom.com/wiki/Tanjiro_Kamado" 
+                        coords="58,481,58,494,65,465,71,452,61,443,34,416,106,244,143,215,138,187,125,171,112,118,136,86,167,67,204,72,228,100,234,
+                        139,229,159,218,200,217,220,244,233,256,259,264,281,266,291,316,419,288,441,261,455,265,476,249,497" shape="poly">
+            </map>
+        </div>
+        <div id="table_div">
+            <table>
+                <tr>
+                    <th>Character</th>
+                    <th>Anime</th>                    
+                </tr>
+                <tr>
+                    <td>Tanjiro Kamado</td>
+                    <td>Demon Slayer</td>
+                </tr>
+                <tr>
+                    <td>Zenitsu Agamatsu</td>
+                    <td>Demon Slayer</td>
+                </tr>
+                <tr>
+                    <td>Rengoku Kyoujiro</td>
+                    <td>Demon Slayer</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
