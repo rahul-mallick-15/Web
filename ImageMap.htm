@@ -7,6 +7,28 @@
             body{
                 background-color: gold;
             }
+            ul{
+                list-style-type:none;
+                margin:  0;
+                padding: 0;
+                overflow: hidden;
+                background-color : orange;
+            }
+            li{
+                float:left;
+                width: 50%;
+            }
+            li a{
+                text-align:center;
+                text-decoration:none;
+                display:block;
+                color:black;
+                padding:16px;
+            }
+            li a:hover{
+                background-color: black;
+                color: red;
+            }
             th,td{
                 text-align: center;
                 padding:10px;
@@ -32,10 +54,14 @@
         </style>
     </head>
     <body>
+        <ul>
+            <li><a href="#img"><b>Image</b></a></li>
+            <li><a href="#table_div"><b>Info</b></a></li>
+        </ul>
         <div style="text-align: center;">
             <h1 style="font-size:xx-large ; font-family: Georgia, 'Times New Roman', Times, serif;" color: orange; ">Image Map</h1>
         </div>
-        <div style="text-align: center;">
+        <div id="img" style="text-align: center;">
             <img style="height: 500px;width: 800px;border: 5px solid black"  src="../Images/DemonSlayer_for_ImageMap.jpeg" alt="error"  usemap="#characters">
             <map name= "characters">
                 <area  title="Kamado Tanjiro" href="https://kimetsu-no-yaiba.fandom.com/wiki/Tanjiro_Kamado" 
