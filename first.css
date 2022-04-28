@@ -1,0 +1,47 @@
+body{
+    background-color: gold;
+}
+ul{
+    list-style-type:none;
+    margin:  0;
+    padding: 0;
+    overflow: hidden;
+    background-color : orange;
+}
+li{
+    float:left;
+    width: 50%;
+}
+li a{
+    text-align:center;
+    text-decoration:none;
+    display:block;
+    color:black;
+    padding:16px;
+}
+li a:hover{
+    background-color: black;
+    color: red;
+}
+th,td{
+    text-align: center;
+    padding:10px;
+    background-color : orange;
+    border-style:solid;
+    border-color: red;
+    border-width: 5px 5px;
+}
+td{
+    border-style:solid;
+    border-spacing: 30px;
+    color: white;
+}
+th:hover,td:hover {
+    background-color: black;
+    color: red ;
+}
+#table_div{
+    margin-top: 50px ;
+    margin-left: 350px;
+    width: 100%;
+}
