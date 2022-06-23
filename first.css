@@ -29,7 +29,7 @@ th,td{
     background-color : orange;
     border-style:solid;
     border-color: red;
-    border-width: 5px 5px;
+    border-width: 5px;
 }
 td{
     border-style:solid;
@@ -41,7 +41,8 @@ th:hover,td:hover {
     color: red ;
 }
 #table_div{
-    margin-top: 50px ;
-    margin-left: 350px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
     width: 100%;
 }
